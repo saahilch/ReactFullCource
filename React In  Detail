@@ -20,6 +20,10 @@ npx is runs on java script extension.
 To install bootstrap in project use cmd 
 npm install bootstrap reactstrap
 
-AXIOS are help to call url in react app
+AXIOS are help to call url in react app 
+Basically AXIOS are use to fetch HTTP  from browser.
+AXIOS are use to interact with browsers API
+
+
 
 
