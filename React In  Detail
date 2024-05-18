@@ -16,6 +16,22 @@ npx is runs on java script extension.
  npm is nothing but node pakage manager it installs reacts funcationality globally.
 
 -Components..-
+It is buildeing block of recat.
+It represents  part of UI which is Resuable it can be reuse whenever it need 
+it can ve saves by using .js or .jsx extension.
+
+There are two type of components
+1-)stateless functional 
+it is js () which returns only UI
+it can be recives props as arguents & returns arguments returns dom elements.
+
+2-)Statefull class component
+More feature-rich, use state and lifecycle methods.
+it is ES6 fetured it returns method in html.
+it stores infomation as private to userState.
+
+---Hooks....-
+
 
 To install bootstrap in project use cmd 
 npm install bootstrap reactstrap
