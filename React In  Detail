@@ -17,4 +17,7 @@ npx is runs on java script extension.
 
 -Components..-
 
+To install bootstrap in project use cmd 
+npm install bootstrap reactstrap
+
 
