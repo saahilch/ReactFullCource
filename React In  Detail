@@ -31,7 +31,14 @@ it is ES6 fetured it returns method in html.
 it stores infomation as private to userState.
 
 ---Hooks....-
-
+Imagine you're playing with building blocks, and each block has a special button that makes it do something cool, 
+like light up or make a sound. These buttons make it easier to add fun features to your blocks without needing to rebuild them from scratch.
+In React, which is a tool for building web pages, hooks are like those special buttons. 
+They let you add cool features to your web pages without having to rewrite everything.
+--useState
+--useEffects
+hooks in React are special tools that make it easier to add and manage features on your web page, 
+just like those buttons make your building blocks more fun and interactive.
 
 To install bootstrap in project use cmd 
 npm install bootstrap reactstrap
