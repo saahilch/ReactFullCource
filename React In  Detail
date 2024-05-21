@@ -40,6 +40,18 @@ They let you add cool features to your web pages without having to rewrite every
 hooks in React are special tools that make it easier to add and manage features on your web page, 
 just like those buttons make your building blocks more fun and interactive.
 
+--JSX--..
+Java Script XML
+Basically JSX is a Java Script syntax 
+we can write code in  element/ component with the help of jsx.
+jsx makes react code very simpler & easier.
+jsx ultimately transpiles to pure js which understood by browser.
+class  can be replaced by className.
+camel casing index can be changed by onclick to onClick.
+React to describe what the UI should look like. 
+It allows you to write HTML-like code within JavaScript, 
+making it easier to create and visualize the structure of your components
+
 To install bootstrap in project use cmd 
 npm install bootstrap reactstrap
 
