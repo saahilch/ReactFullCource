@@ -50,7 +50,9 @@ class  can be replaced by className.
 camel casing index can be changed by onclick to onClick.
 React to describe what the UI should look like. 
 It allows you to write HTML-like code within JavaScript, 
-making it easier to create and visualize the structure of your components
+making it easier to create and visualize the structure of your components.
+
+--Propes--.
 
 To install bootstrap in project use cmd 
 npm install bootstrap reactstrap
