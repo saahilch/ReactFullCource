@@ -79,6 +79,17 @@ The setState method is used to update the state. It schedules an update to the c
 this component and its children need to be re-rendered with the updated state.
 
 
+Event State---
+Event State mens mouce click mouce over , onclick
+event state" refers to the state of a component that is typically updated in response to user events, such as clicks, 
+form submissions, or other interactions. 
+React uses a declarative approach to manage the state of UI components, making it easier to keep the UI in sync with the underlying state.
+Here's a basic overview of how you can manage event state in React:
+
+Initialize State: Use the useState hook to initialize state in a functional component.
+Update State: Create event handler functions that update the state when user interactions occur.
+Render State: Use the state to determine what to render.
+
 
 To install bootstrap in project use cmd 
 npm install bootstrap reactstrap
