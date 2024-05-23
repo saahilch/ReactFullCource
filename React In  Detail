@@ -65,7 +65,10 @@ states can be accessed by using hooks as functionla component.
 state is nothing but an object that privately maintain component & state can be used  in constructure using this keyword & arrow ().
 
 --setState--
-bascially setState are asynchronous 
+bascially setState are asynchronous.
+setState is a crucial method in React for managing and updating the state of a component. 
+State represents the dynamic data in a component that can change over time. 
+By using setState, you can update the state and trigger a re-render of the component to reflect those changes in the UI
 
 
 
