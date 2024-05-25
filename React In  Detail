@@ -124,6 +124,16 @@ However, they should be used sparingly and only when absolutely necessary, as th
 By understanding when and how to use refs effectively, you can take full advantage of their capabilities in your React applications.
 
 
+Ract Portal---
+React portals provide a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.
+This can be particularly useful for modals, tooltips, or any other component that needs to be rendered outside of the usual parent hierarchy.
+
+Create the Portal Root Element:
+First, ensure you have a root element in your HTML file where you want to render the portal.
+Typically, you would add this to your public/index.html file.
+
+
+
                         To install bootstrap in project use cmd 
                         npm install bootstrap reactstrap
 
