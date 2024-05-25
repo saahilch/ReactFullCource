@@ -171,6 +171,12 @@ They do not catch errors in:
 - Server-side rendering
 - Errors thrown in the error boundary itself (use nested boundaries for this)
 
+Basically Error Boundry is an class component that implement either or both life cycle methods
+GetDerivedStateFromUser & ComponentDidCatch beomes Error Boundry.
+The Static method getDerivedFromErrorState Method is use to render tha fall back UI after the error
+is thrown.
+
+
                         
      
                      To install bootstrap in project use cmd 
