@@ -133,6 +133,20 @@ First, ensure you have a root element in your HTML file where you want to render
 Typically, you would add this to your public/index.html file.
 
 
+Forwarding Refs--
+is a technique use to pass automatically ref into a component.
+orwarding refs in React is a technique for passing a ref through a component to one of its children. 
+This is useful when you need to access a DOM element or a child component's instance from a parent component. 
+React provides the React.forwardRef API to handle this.
+use to pass directly nativ ecomponen into child component.
+
+
+Why Use Forwarded Refs:
+Forwarding refs is particularly useful when building reusable components, 
+higher-order components, or components that abstract other UI elements
+
+
+
 
                         To install bootstrap in project use cmd 
                         npm install bootstrap reactstrap
