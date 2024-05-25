@@ -76,7 +76,7 @@ State is typically initialized in the constructor of a class component or direct
 
 Updating State:
 The setState method is used to update the state. It schedules an update to the component's state and tells React that 
-this component and its children need to be re-rendered with the updated state.
+this component and its children need to be re-rendered  with the updated state.
 
 
 Event State---
@@ -134,6 +134,8 @@ Typically, you would add this to your public/index.html file.
 
 
 Forwarding Refs--
+'ref 'in React  is basically used to access HTML nodes, in the previous we learned that refs can also 
+be used to access components in React, in a similar way we did the HTML element
 is a technique use to pass automatically ref into a component.
 orwarding refs in React is a technique for passing a ref through a component to one of its children. 
 This is useful when you need to access a DOM element or a child component's instance from a parent component. 
