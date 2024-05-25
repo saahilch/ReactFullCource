@@ -142,15 +142,38 @@ This is useful when you need to access a DOM element or a child component's inst
 React provides the React.forwardRef API to handle this.
 use to pass directly nativ ecomponen into child component.
 
-
-Why Use Forwarded Refs:
+-- Why Use Forwarded Refs:
 Forwarding refs is particularly useful when building reusable components, 
 higher-order components, or components that abstract other UI elements
 
+-- Understanding React Portals
+React portals provide a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. 
+This is particularly useful for scenarios like modals, tooltips, or any other component that needs to be rendered outside of the 
+usual parent component's DOM hierarchy.
+
+-- When to Use Portals
+React portals are particularly useful when 
+You need to render a component outside of its parent hierarchy (e.g., modals, tooltips, dialogs).
+You want to avoid CSS conflicts and ensure components are rendered in a specific part of the DOM (e.g., popups, notifications).
+This setup demonstrates how to use React portals to create a modal component in a React application.
+You can further customize and extend this pattern to fit your specific use case.
 
 
+-- Error Boundaries in React --
+Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, 
+and display a fallback UI instead of crashing the whole app.
 
-                        To install bootstrap in project use cmd 
+-- Usage
+Error boundaries should be used around components that may throw errors. 
+They do not catch errors in:
+- Event handlers
+- Asynchronous code (e.g., setTimeout or requestAnimationFrame callbacks)
+- Server-side rendering
+- Errors thrown in the error boundary itself (use nested boundaries for this)
+
+                        
+     
+                     To install bootstrap in project use cmd 
                         npm install bootstrap reactstrap
 
                         AXIOS are help to call url in react app 
